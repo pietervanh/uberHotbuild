@@ -1,0 +1,35 @@
+{
+    "author": "Uber Entertainment,PRoeleert",
+    "build": "62519",
+    "category": [
+        "in-game",
+        "ui"
+    ],
+    "context": "client",
+    "date": "2014/03/08",
+    "description": "Uber Hotbuild",
+    "display_name": "uberhotbuild",
+    "enabled": true,
+    "forum": "https://forums.uberent.com/threads/rel-hotbuild2-v1-9-9-9-5-62165.54561/",
+    "id": "uberHotbuild",
+    "identifier": "pa.proeleert.uberhotbuild",
+    "scenes":{
+      "settings": [
+      "coui://ui/mods/uberhotbuild/settings/hotbuild_settings.css",
+      "coui://ui/mods/uberhotbuild/lib/knockout-sortable.min.js",
+      "coui://ui/mods/uberhotbuild/settings/hotbuild_settings.js"
+    ],
+    "global_mod_list": [
+        "coui://ui/alpha/shared/js/build.js",
+        "coui://ui/mods/uberHotbuild/start.js"
+    ]
+  },    
+    "requires": [
+        "rFloatFrame",
+        "rSettingsManager",
+        "rBlueprintInfoFramework"
+    ],
+    "priority": 100,
+    "signature": "not yet implemented",
+    "version": "1.0.0"
+}
